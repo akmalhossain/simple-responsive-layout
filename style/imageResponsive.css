@@ -1,0 +1,30 @@
+body{
+    border: 1px solid skyblue;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+img{
+    /* width: 50%; */
+}
+
+.img-container{
+    display: flex;
+
+}
+
+.img-container div{
+    width: 50%;
+}
+.img-container div > img{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .img-container{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    }
+    
+}
