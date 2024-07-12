@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    border: 2px solid salmon;
+    flex-wrap: wrap;
+    height: 350px;
+    gap:10px
+}
+
