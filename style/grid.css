@@ -44,22 +44,22 @@
     /* height: 40px; 
 } */
 
-.calendaer{
+.calendaer {
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 30px repeat(5, 50px);
-    gap:10px;
+    gap: 10px;
 }
 
-.date, .day{
+.date,
+.day {
     background-color: aqua;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.day{
+
+.day {
     background-color: lightblue;
 }
-
-
